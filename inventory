@@ -5,8 +5,8 @@ lb01
 app01
 app02
 
-[dbserver]
+[database]
 db01
 
 [control]
-control
+control ansible_connection=local
